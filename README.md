@@ -1,8 +1,46 @@
-# .NetDiagnostics
-.Net 官方诊断程序相关文章
+# .NetDocument
+
+记录自己在.Net官方文档中的学习笔记
+后期如果内容太多可以按.Net、C#、Aspnet.core 建不同的分类
+
+## .Net 官方诊断程序相关文章
 
 操作流程： https://learn.microsoft.com/zh-cn/dotnet/core/diagnostics/debug-memory-leak
 
 对应的源码： https://github.com/dotnet/samples/tree/6c5ab81742af4729c5bc2c8d9c91d4eed781e58f/core/diagnostics/DiagnosticScenarios
 
-记录一下方便后续自己查找
+## .Net 和 容器 简介
+https://learn.microsoft.com/zh-cn/dotnet/core/docker/introduction
+
+## .Net和AI
+模型生成器是可以通过VS界面操作训练数据，生成模型生成预测的代码
+
+ML.NET API是通过代码训练数据、生成模型、预测
+
+模型生成器介绍：https://learn.microsoft.com/zh-cn/dotnet/machine-learning/automate-training-with-model-builder
+
+ML.NET API介绍：https://learn.microsoft.com/zh-cn/dotnet/machine-learning/how-does-mldotnet-work
+
+模型生成器案例：https://learn.microsoft.com/zh-cn/dotnet/machine-learning/tutorials/predict-prices-with-model-builder
+
+ML.NET API案例：https://learn.microsoft.com/zh-cn/dotnet/machine-learning/tutorials/sentiment-analysis
+
+Open Neural Network Exchange（ONNX，开放神经网络交换）是AI模型的开放源代码格式，ONNX 支持框架之间的互操作性
+
+介绍ML.NET如何使用ONNX模型：https://learn.microsoft.com/zh-cn/azure/machine-learning/how-to-use-automl-onnx-model-dotnet?view=azureml-api-2
+
+介绍ML.NET如何使用YOLOv2的ONNX模型：https://learn.microsoft.com/zh-cn/dotnet/machine-learning/tutorials/object-detection-onnx
+
+ML.NET如何导出ONNX模型：https://learn.microsoft.com/zh-cn/dotnet/machine-learning/how-to-guides/save-load-machine-learning-models-ml-net#load-a-model-stored-locally
+
+![image](https://github.com/liupade40/.NetDocument/assets/32723645/d0750477-5748-4ba2-a48d-7c683f13a8ec)
+上图左边是通过机器学习框架训练AI模型，训练完以后导出ONNX模型，ML.NET可以使用ONNX模型
+
+## .Net使用GRPC
+https://learn.microsoft.com/zh-cn/aspnet/core/grpc
+
+## Asp.net core
+Web服务器Kestrel、HTTP.sys、IIS：https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/servers
+
+部署在linux服务器+nginx反向代理+systemd服务管理：https://learn.microsoft.com/zh-cn/aspnet/core/host-and-deploy/linux-nginx
+
