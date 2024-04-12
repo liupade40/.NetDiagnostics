@@ -6,6 +6,15 @@
 ## .Net 官方诊断程序相关文章
 
 操作流程： https://learn.microsoft.com/zh-cn/dotnet/core/diagnostics/debug-memory-leak
+示例包含了：
+
+内存泄漏：针对内存泄漏我自己碰到的情况要么非托管资源未释放，没有使用Dispose，常见的数据库连接，Redis连接这些，其实这些连接，服务可以查看到客户端连接数，如果连接数一直在增加那就说明连接没有释放；要么就是定义的全局静态字段，比如是一个字典或者列表可以不断增加，随着使用时间的增加，占用内存越来越多。
+
+高CPU：
+
+死锁：
+
+堆栈溢出：
 
 对应的源码： https://github.com/dotnet/samples/tree/6c5ab81742af4729c5bc2c8d9c91d4eed781e58f/core/diagnostics/DiagnosticScenarios
 
