@@ -22,7 +22,7 @@
 https://learn.microsoft.com/zh-cn/dotnet/core/docker/introduction
 
 ## .Net和AI
-模型生成器是可以通过VS界面操作训练数据，生成模型生成预测的代码
+模型生成器是通过VS界面操作训练数据，生成模型生成预测的代码
 
 ML.NET API是通过代码训练数据、生成模型、预测
 
@@ -43,7 +43,7 @@ Open Neural Network Exchange（ONNX，开放神经网络交换）是AI模型的�
 ML.NET如何导出ONNX模型：https://learn.microsoft.com/zh-cn/dotnet/machine-learning/how-to-guides/save-load-machine-learning-models-ml-net#load-a-model-stored-locally
 
 ![image](https://github.com/liupade40/.NetDocument/assets/32723645/d0750477-5748-4ba2-a48d-7c683f13a8ec)
-上图左边是通过机器学习框架训练AI模型，训练完以后导出ONNX模型，ML.NET可以使用ONNX模型
+上图是通过机器学习框架训练AI模型，训练完以后导出ONNX模型，ML.NET可以使用ONNX模型
 
 ## .Net使用GRPC
 https://learn.microsoft.com/zh-cn/aspnet/core/grpc
