@@ -59,3 +59,6 @@ Web服务器Kestrel、HTTP.sys、IIS：https://learn.microsoft.com/zh-cn/aspnet/
 
 部署在linux服务器+nginx反向代理+systemd服务管理：https://learn.microsoft.com/zh-cn/aspnet/core/host-and-deploy/linux-nginx
 
+## C#/C++
+C#调用C++： https://www.cnblogs.com/skyfreedom/p/11773597.html
+
