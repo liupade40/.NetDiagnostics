@@ -1,6 +1,6 @@
 # .NetDocument
 
-记录自己在.Net官方文档中的学习笔记
+记录.Net的学习笔记
 
 ## .Net相关源码
 .Net 运行时源码：https://source.dot.net 、 https://github.com/dotnet/runtime
