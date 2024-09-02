@@ -59,6 +59,10 @@ Web服务器Kestrel、HTTP.sys、IIS：https://learn.microsoft.com/zh-cn/aspnet/
 
 部署在linux服务器+nginx反向代理+systemd服务管理：https://learn.microsoft.com/zh-cn/aspnet/core/host-and-deploy/linux-nginx
 
+## .NET IoT 库文档
+文档主要介绍dotnet运行在arm64架构的树莓派上面，并且可以控制树莓派的引脚，通过控制树莓派的引脚可以控制其他硬件的电压。理论上也是可以用过国产的比如香橙派之类的开发板上面的。
+微软官方库：https://learn.microsoft.com/zh-cn/dotnet/iot
+
 ## C#/C++
 C#调用C++： https://www.cnblogs.com/skyfreedom/p/11773597.html
 
