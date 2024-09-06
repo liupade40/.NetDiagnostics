@@ -14,7 +14,7 @@ options.AddUserProfilePreference("download.default_directory", downloadDirectory
 options.AddUserProfilePreference("credentials_enable_service", false); 
 using (IWebDriver driver = new ChromeDriver("c:\\xxx\\chrome-win64", options))
 {
-driver.Navigate().GoToUrl("http://xxx.com/login");
-driver.Quit();
+  driver.Navigate().GoToUrl("http://xxx.com/login");
+  driver.Quit();
 }
 ```
